@@ -30,7 +30,7 @@ parse_xml() {
 query_cve_api() {
     local name=$1
     local version=$2
-    local api_key=" 3c09d3df-4e6b-4b6a-b63e-a97b7c2e7b13" # Replace with your actual CVE API key
+    local api_key=" Insert yout api key here " # Replace with your actual CVE API key
     echo "Checking $name version $version for vulnerabilities..."
 
     # API request
